@@ -19,7 +19,7 @@ class Ball
   {
     show();
     collideWall();
-    collisionCheck();
+    collisionCheck2();
   }
   public void show()
   {
@@ -37,6 +37,13 @@ class Ball
   }
   m_xPos+= m_xSpeed;
   m_yPos+= m_ySpeed;
+  }
+  void collisionCheck2()
+  {
+    if (sq(mouseX-m_xPos) + sq(mouseY-m_yPos)<=sq(m_radius))
+    {
+      exit();
+    }
   }
   void collisionCheck()
 {
