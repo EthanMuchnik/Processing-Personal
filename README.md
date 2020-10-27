@@ -1,2 +1,2 @@
 # ProcessingPersonal
-Just stuff in Processing
+All of my personal processing projects from PID to gravity simulations.
